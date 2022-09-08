@@ -92,7 +92,7 @@ make test-e2e
 
 For development, you'll also have to add/change CORS configuration in the
 aw-server configs by adding `cors_origins = http://localhost:27180` to your
-configuration file `~/.config/activitywatch/aw-server/aw-server.ini` under the
+configuration file `~/.config/activitywatch/aw-server/aw-server.toml` under the
 `server-testing` section.
 
 ### Code structure
